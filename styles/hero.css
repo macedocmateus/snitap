@@ -215,3 +215,10 @@ section.hero {
         opacity: 1;
     }
 }
+
+@media (width <= 23.4375em) {
+    section.hero {
+        max-width: 100%;
+        flex-direction: column-reverse;
+    }
+}
