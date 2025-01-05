@@ -30,7 +30,7 @@ Snitap é uma landing page de apresentação e venda de patins. <a href="https:/
 
 ## 🎨 Layout
 
-Clique <a href="https://www.figma.com/design/7GhNC6bmLlLR2s1Nlbi691/LP-de-produto-(Community)?m=auto&is-community-duplicate=1&fuid=1050974991944149827">aqui</a> para conhecer a prototipagem do projeto.
+Clique <a href="https://www.figma.com/design/jwuELh8xEK65lnAA0gfVK6/LP-de-patins-animada-(Community)?m=auto&is-community-duplicate=1&fuid=1050974991944149827">aqui</a> para conhecer a prototipagem do projeto.
 <br>
 <br>
 <br>
