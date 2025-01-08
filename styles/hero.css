@@ -230,13 +230,15 @@ section.hero {
         overflow: hidden;
 
         & h1 {
-            max-width: 40rem;
+            max-width: 19.5rem;
+            height: 2.5rem;
+            font-size: 2rem;
         }
 
         & h1 div {
             display: inline-block;
             overflow: hidden;
-            height: 5rem;
+            height: 2.5rem;
             width: min-content;
             vertical-align: bottom;
         }
@@ -353,6 +355,75 @@ section.hero {
 
                 transform: translateX(400%);
                 animation: slideIn 2.2s 800ms ease forwards;
+            }
+        }
+
+        @keyframes slideUp {
+            0%,
+            22% {
+                transform: translateY(0);
+            }
+
+            23% {
+                transform: translateY(calc(-2.5rem - 15px));
+            }
+
+            25% {
+                transform: translateY(calc(-2.5rem + 10px));
+            }
+
+            27% {
+                transform: translateY(calc(-2.5rem - 5px));
+            }
+
+            29% {
+                transform: translateY(calc(-2.5rem + 5px));
+            }
+
+            33%,
+            55% {
+                transform: translateY(-2.5rem);
+            }
+
+            57% {
+                transform: translateY(calc(-5rem - 15px));
+            }
+
+            59% {
+                transform: translateY(calc(-5rem + 10px));
+            }
+
+            61% {
+                transform: translateY(calc(-5rem - 5px));
+            }
+
+            63% {
+                transform: translateY(calc(-5rem + 5px));
+            }
+
+            66%,
+            88% {
+                transform: translateY(-5rem);
+            }
+
+            90% {
+                transform: translateY(calc(-7.5rem - 5px));
+            }
+
+            92% {
+                transform: translateY(calc(-7.5rem + 10px));
+            }
+
+            94% {
+                transform: translateY(calc(-7.5rem - 5px));
+            }
+
+            96% {
+                transform: translateY(calc(-7.5rem + 5px));
+            }
+
+            100% {
+                transform: translateY(-7.5rem);
             }
         }
     }
