@@ -215,3 +215,42 @@ section.hero {
         opacity: 1;
     }
 }
+
+@media (width <=23.4375em) {
+    section.hero {
+        max-width: 23.4375rem;
+        padding: 1rem 1.5rem 3rem;
+
+        flex-direction: column-reverse;
+        justify-content: unset;
+        gap: 2rem;
+
+        & h1 {
+            max-width: 19.5rem;
+        }
+
+        & h1 div {
+            display: inline-block;
+            overflow: hidden;
+            height: 2.5rem;
+            width: min-content;
+            vertical-align: bottom;
+        }
+
+        & .buttons {
+            flex-direction: column-reverse;
+            gap: 1.5rem;
+        }
+
+        & > div:nth-child(2) {
+            background-color: red;
+
+            display: block;
+            width: 100%;
+            max-width: 19.5rem;
+            height: 19.5rem;
+        }
+    }
+
+    /*TODO: Ajustar a animação das spans do hero*/
+}
