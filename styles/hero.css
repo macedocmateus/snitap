@@ -216,9 +216,9 @@ section.hero {
     }
 }
 
-@media (width <=23.4375rem) {
+@media (width <=62.125em) {
     section.hero {
-        max-width: 23.4375rem;
+        max-width: 37.5em;
         padding: 1rem 1.5rem 3rem;
 
         flex-direction: column-reverse;

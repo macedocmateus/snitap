@@ -100,7 +100,7 @@ footer {
     }
 }
 
-@media (width <=23.4375rem) {
+@media (width <=62.125em) {
     & footer {
         flex-direction: column;
         align-items: start;

@@ -115,7 +115,7 @@ section.gallery {
     }
 }
 
-@media (width <=23.4375rem) {
+@media (width <=62.125em) {
     section.gallery {
         & .content {
             grid-template-areas:
@@ -125,7 +125,7 @@ section.gallery {
                 'D';
 
             & figure {
-                height: 16rem;
+                min-height: 21.875rem;
 
                 & > img {
                     height: 100%;
