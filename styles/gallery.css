@@ -114,3 +114,23 @@ section.gallery {
         transform: translateY(100%);
     }
 }
+
+@media (width <=23.4375em) {
+    section.gallery {
+        & .content {
+            grid-template-areas:
+                'A'
+                'B'
+                'C'
+                'D';
+
+            & figure {
+                height: 16rem;
+
+                & > img {
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
