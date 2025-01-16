@@ -250,5 +250,72 @@ section.hero {
         }
     }
 
-    /*TODO: Ajustar a animação das spans do hero*/
+    @keyframes slideUp {
+        0%,
+        22% {
+            transform: translateY(0);
+        }
+
+        23% {
+            transform: translateY(calc(-2.5rem - 7.5px));
+        }
+
+        25% {
+            transform: translateY(calc(-2.5rem + 5px));
+        }
+
+        27% {
+            transform: translateY(calc(-2.5rem - 2.5px));
+        }
+
+        29% {
+            transform: translateY(calc(-2.5rem + 2.5px));
+        }
+
+        33%,
+        55% {
+            transform: translateY(-2.5rem);
+        }
+
+        57% {
+            transform: translateY(calc(-5rem - 7.5px));
+        }
+
+        59% {
+            transform: translateY(calc(-5rem + 5px));
+        }
+
+        61% {
+            transform: translateY(calc(-5rem - 2.5px));
+        }
+
+        63% {
+            transform: translateY(calc(-5rem + 2.5px));
+        }
+
+        66%,
+        88% {
+            transform: translateY(-5rem);
+        }
+
+        90% {
+            transform: translateY(calc(-7.5rem - 2.5px));
+        }
+
+        92% {
+            transform: translateY(calc(-7.5rem + 5px));
+        }
+
+        94% {
+            transform: translateY(calc(-7.5rem - 2.5px));
+        }
+
+        96% {
+            transform: translateY(calc(-7.5rem + 2.5px));
+        }
+
+        100% {
+            transform: translateY(-7.5rem);
+        }
+    }
 }
