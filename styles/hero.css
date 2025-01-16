@@ -216,7 +216,7 @@ section.hero {
     }
 }
 
-@media (width <=23.4375em) {
+@media (width <=23.4375rem) {
     section.hero {
         max-width: 23.4375rem;
         padding: 1rem 1.5rem 3rem;

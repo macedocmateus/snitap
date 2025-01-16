@@ -115,7 +115,7 @@ section.gallery {
     }
 }
 
-@media (width <=23.4375em) {
+@media (width <=23.4375rem) {
     section.gallery {
         & .content {
             grid-template-areas:

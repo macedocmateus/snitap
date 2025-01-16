@@ -57,7 +57,7 @@ a {
     text-decoration: none;
 }
 
-@media (width <=23.4375em) {
+@media (width <=23.4375rem) {
     :root {
         --text-sm: 0.75rem;
         --text-lg: 1.5rem;
